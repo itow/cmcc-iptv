@@ -117,6 +117,30 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230500/index.m3u8
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230463/index.m3u8
 #EXTINF:-1 tvg-id="iHOT爱谍战" tvg-name="iHOT爱谍战" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱谍战
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230092/index.m3u8
+#EXTINF:-1 tvg-id="iHOT爱体育" tvg-name="iHOT爱体育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱体育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236595/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱科幻" tvg-name="iHOT爱科幻" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱科幻
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230025/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱科学" tvg-name="iHOT爱科学" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱科学
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235603/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱历史" tvg-name="iHOT爱历史" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱历史
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236593/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱喜剧" tvg-name="iHOT爱喜剧" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱喜剧
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230022/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱悬疑" tvg-name="iHOT爱悬疑" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱悬疑
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236652/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱浪漫" tvg-name="iHOT爱浪漫" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱浪漫
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230005/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱院线" tvg-name="iHOT爱院线" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱院线
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230019/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱幼教" tvg-name="iHOT爱幼教" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱幼教
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235622/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱旅行" tvg-name="iHOT爱旅行" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱旅行
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236591/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱赛车" tvg-name="iHOT爱赛车" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱赛车
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236656/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱玩具" tvg-name="iHOT爱玩具" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/aidiezhan.png" group-title="影视剧场",iHOT爱玩具
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221235626/index.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-id="欢笑剧场" tvg-name="欢笑剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/huanxiaojuchang.png" group-title="影视剧场",欢笑剧场
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230782/1/index.m3u8
 #EXTINF:-1 tvg-id="家庭剧场" tvg-name="家庭剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/jiatingjuchang.png" group-title="影视剧场",家庭剧场
@@ -131,3 +155,5 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236220/index.m3u8
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236278/index.m3u8
 #EXTINF:-1 tvg-id="农业致富" tvg-name="农业致富" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/null.png" group-title="影视剧场",农业致富
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236233/index.m3u8
+#EXTINF:-1 tvg-id="重温经典" tvg-name="重温经典" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/null.png" group-title="影视剧场",重温经典
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236436/index.m3u8?fmt=ts2hls
