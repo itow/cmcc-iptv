@@ -36,25 +36,49 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236203/index.m3u8
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/CCTV13.png" group-title="央视",CCTV13新闻
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236169/index.m3u8
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/CCTV14.png" group-title="央视",CCTV14少儿
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236317/index.m3u8
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236257/index.m3u8
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/CCTV15.png" group-title="央视",CCTV15音乐
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236165/index.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/CCTV16.png" group-title="央视",CCTV16奥林匹克
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236181/index.m3u8
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/CCTV17.png" group-title="央视",CCTV17农业农村
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236200/index.m3u8
-#EXTINF:-1 tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/CCTV4K.png" group-title="央视",CCTV4K
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/index.m3u8?fmt=ts2hls
+#EXTINF:-1 tvg-id="iHOT爱谍战" tvg-name="iHOT爱谍战" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/iHOT爱谍战.png" group-title="影视剧场",iHOT爱谍战
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230092/index.m3u8
 #EXTINF:-1 tvg-id="军旅剧场" tvg-name="军旅剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/军旅剧场.png" group-title="影视剧场",军旅剧场
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236278/index.m3u8
 #EXTINF:-1 tvg-id="精品大剧" tvg-name="精品大剧" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/精品大剧.png" group-title="影视剧场",精品大剧
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236239/index.m3u8
+#EXTINF:-1 tvg-id="欢乐剧场" tvg-name="欢乐剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/欢乐剧场.png" group-title="影视剧场",欢乐剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236173/index.m3u8
+#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/古装剧场.png" group-title="影视剧场",古装剧场
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236240/index.m3u8
+#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/动作电影.png" group-title="影视剧场",动作电影
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236183/index.m3u8
+#EXTINF:-1 tvg-id="惊悚悬疑" tvg-name="惊悚悬疑" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/惊悚悬疑.png" group-title="影视剧场",惊悚悬疑
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236223/index.m3u8
 #EXTINF:-1 tvg-id="怡伴健康" tvg-name="怡伴健康" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/怡伴健康.png" group-title="影视剧场",怡伴健康
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236220/index.m3u8
 #EXTINF:-1 tvg-id="农业致富" tvg-name="农业致富" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/农业致富.png" group-title="影视剧场",农业致富
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236233/index.m3u8
-#EXTINF:-1 tvg-id="iHOT爱谍战" tvg-name="iHOT爱谍战" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/iHOT爱谍战.png" group-title="影视剧场",iHOT爱谍战
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230092/index.m3u8
+#EXTINF:-1 tvg-id="金牌综艺" tvg-name="金牌综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/金牌综艺.png" group-title="影视剧场",金牌综艺
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236282/index.m3u8
+#EXTINF:-1 tvg-id="精品纪录" tvg-name="精品纪录" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/精品纪录.png" group-title="影视剧场",精品纪录
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236276/index.m3u8
+#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/精品体育.png" group-title="影视剧场",精品体育
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236300/index.m3u8
+#EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/哒啵赛事.png" group-title="影视剧场",哒啵赛事
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236207/index.m3u8
+#EXTINF:-1 tvg-id="军事评论" tvg-name="军事评论" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/军事评论.png" group-title="影视剧场",军事评论
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236155/index.m3u8
+#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/中国功夫.png" group-title="影视剧场",中国功夫
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236267/index.m3u8
+#EXTINF:-1 tvg-id="潮妈辣婆" tvg-name="潮妈辣婆" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/潮妈辣婆.png" group-title="影视剧场",潮妈辣婆
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236167/index.m3u8
+#EXTINF:-1 tvg-id="炫舞未来" tvg-name="炫舞未来" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/炫舞未来.png" group-title="影视剧场",炫舞未来
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236230/index.m3u8
+#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/哈哈炫动.png" group-title="影视剧场",哈哈炫动
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236296/index.m3u8
 #EXTINF:-1 tvg-id="iHOT爱情喜剧" tvg-name="iHOT爱情喜剧" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/iHOT爱情喜剧.png" group-title="影视剧场",iHOT爱情喜剧
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236179/index.m3u8
 #EXTINF:-1 tvg-id="iHOT爱历史" tvg-name="iHOT爱历史" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/iHOT爱历史.png" group-title="影视剧场",iHOT爱历史
@@ -129,43 +153,11 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236268/index.m3u8
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236232/index.m3u8
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/河南卫视.png" group-title="卫视",河南卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236218/index.m3u8
-#EXTINF:-1 tvg-id="欢乐剧场" tvg-name="欢乐剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/欢乐剧场.png" group-title="卫视",欢乐剧场
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236173/index.m3u8
-#EXTINF:-1 tvg-id="古装剧场" tvg-name="古装剧场" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/古装剧场.png" group-title="卫视",古装剧场
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236240/index.m3u8
-#EXTINF:-1 tvg-id="动作电影" tvg-name="动作电影" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/动作电影.png" group-title="卫视",动作电影
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236183/index.m3u8
-#EXTINF:-1 tvg-id="惊悚悬疑" tvg-name="惊悚悬疑" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/惊悚悬疑.png" group-title="卫视",惊悚悬疑
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236223/index.m3u8
-#EXTINF:-1 tvg-id="金牌综艺" tvg-name="金牌综艺" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/金牌综艺.png" group-title="卫视",金牌综艺
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236282/index.m3u8
-#EXTINF:-1 tvg-id="精品纪录" tvg-name="精品纪录" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/精品纪录.png" group-title="卫视",精品纪录
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236276/index.m3u8
-#EXTINF:-1 tvg-id="精品体育" tvg-name="精品体育" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/精品体育.png" group-title="卫视",精品体育
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236300/index.m3u8
-#EXTINF:-1 tvg-id="哒啵赛事" tvg-name="哒啵赛事" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/哒啵赛事.png" group-title="卫视",哒啵赛事
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236207/index.m3u8
-#EXTINF:-1 tvg-id="军事评论" tvg-name="军事评论" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/军事评论.png" group-title="卫视",军事评论
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236155/index.m3u8
-#EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/哈哈炫动.png" group-title="卫视",哈哈炫动
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236296/index.m3u8
-#EXTINF:-1 tvg-id="中国功夫" tvg-name="中国功夫" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/中国功夫.png" group-title="卫视",中国功夫
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236267/index.m3u8
-#EXTINF:-1 tvg-id="潮妈辣婆" tvg-name="潮妈辣婆" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/潮妈辣婆.png" group-title="卫视",潮妈辣婆
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236167/index.m3u8
-#EXTINF:-1 tvg-id="炫舞未来" tvg-name="炫舞未来" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/炫舞未来.png" group-title="卫视",炫舞未来
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236230/index.m3u8
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/凤凰中文.png" group-title="卫视",凤凰中文
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236260/index.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/凤凰资讯.png" group-title="卫视",凤凰资讯
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236197/index.m3u8
-#EXTINF:-1 tvg-id="杭州导视" tvg-name="杭州导视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/杭州导视.png" group-title="卫视",杭州导视
-http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230469/index.m3u8
 #EXTINF:-1 tvg-id="甘肃卫视" tvg-name="甘肃卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/甘肃卫视.png" group-title="卫视",甘肃卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236201/index.m3u8
 #EXTINF:-1 tvg-id="云南卫视" tvg-name="云南卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/云南卫视.png" group-title="卫视",云南卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236234/index.m3u8
-#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/河南卫视.png" group-title="卫视",内蒙古卫视
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236270/index.m3u8
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/青海卫视.png" group-title="卫视",青海卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236252/index.m3u8
@@ -175,3 +167,7 @@ http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236274/index.m3u8
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236215/index.m3u8
 #EXTINF:-1 tvg-id="兵团卫视" tvg-name="兵团卫视" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/兵团卫视.png" group-title="卫视",兵团卫视
 http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236191/index.m3u8
+#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/凤凰中文.png" group-title="卫视",凤凰中文
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236260/index.m3u8
+#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://gh-proxy.org/https://raw.githubusercontent.com/itow/cmcc-iptv/refs/heads/main/logo/凤凰资讯.png" group-title="卫视",凤凰资讯
+http://hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221236197/index.m3u8
