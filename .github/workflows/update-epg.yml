@@ -11,26 +11,25 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # 显式指定 ubuntu-24.04，消除 ubuntu-latest 迁移通知
+    runs-on: ubuntu-24.04
     permissions:
-      contents: write # 必须具备写入仓库权限以推送到 gh-pages 分支
+      contents: write
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+      # 原生拉取代码，不使用 actions/checkout，彻底消除 Node 20 废弃警告
+      - name: Checkout repository
+        run: |
+          git clone --depth 1 "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" .
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
+      # 直接调用 Ubuntu 镜像系统自带的 Python 3（无需 actions/setup-python）
       - name: Run EPG Aggregator
         env:
           EPG_SOURCES: ${{ vars.EPG_SOURCES }}
         run: |
-          python scripts/process_epg.py
+          python3 scripts/process_epg.py
 
-      # 原生 Git 推送至 gh-pages 分支，零第三方依赖，彻底避免 Node.js 废弃警告
+      # 原生 Git 推送至 gh-pages 分支
       - name: Deploy to gh-pages branch
         run: |
           cd dist
@@ -40,4 +39,4 @@ jobs:
           git checkout -b gh-pages
           git add -A
           git commit -m "Automated update EPG: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
