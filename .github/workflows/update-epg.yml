@@ -11,25 +11,29 @@ on:
 
 jobs:
   build:
-    # 显式指定 ubuntu-24.04，消除 ubuntu-latest 迁移通知
     runs-on: ubuntu-24.04
     permissions:
       contents: write
 
     steps:
-      # 原生拉取代码，不使用 actions/checkout，彻底消除 Node 20 废弃警告
       - name: Checkout repository
         run: |
           git clone --depth 1 "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" .
 
-      # 直接调用 Ubuntu 镜像系统自带的 Python 3（无需 actions/setup-python）
       - name: Run EPG Aggregator
         env:
           EPG_SOURCES: ${{ vars.EPG_SOURCES }}
         run: |
           python3 scripts/process_epg.py
 
-      # 原生 Git 推送至 gh-pages 分支
+      # 将根目录的 tv.m3u 一并复制到 dist 目录对外发布
+      - name: Copy tv.m3u to dist
+        run: |
+          if [ -f "tv.m3u" ]; then
+            cp tv.m3u dist/tv.m3u
+            echo "Successfully copied tv.m3u to dist/"
+          fi
+
       - name: Deploy to gh-pages branch
         run: |
           cd dist
@@ -38,5 +42,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b gh-pages
           git add -A
-          git commit -m "Automated update EPG: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git commit -m "Automated update EPG & M3U: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
