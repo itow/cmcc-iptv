@@ -4,17 +4,16 @@ on:
   schedule:
     # 每 4 小时执行一次 (UTC 00:00, 04:00, 08:00, 12:00, 16:00, 20:00)
     - cron: '0 */4 * * *'
-  # 当你修改了 tv.m3u 并 push 时，也会自动触发更新一次
   push:
     paths:
       - 'tv.m3u'
-  workflow_dispatch: # 支持在 GitHub 网页手动一键点击运行
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 自动推送到 gh-pages 分支的权限
+      contents: write # 必须具备写入仓库权限以推送到 gh-pages 分支
 
     steps:
       - name: Checkout Code
@@ -27,14 +26,18 @@ jobs:
 
       - name: Run EPG Aggregator
         env:
-          # 仅需配置 EPG 上游源列表
           EPG_SOURCES: ${{ vars.EPG_SOURCES }}
         run: |
           python scripts/process_epg.py
 
-      - name: Deploy to GitHub Pages (gh-pages)
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
+      # 原生 Git 推送至 gh-pages 分支，零第三方依赖，彻底避免 Node.js 废弃警告
+      - name: Deploy to gh-pages branch
+        run: |
+          cd dist
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b gh-pages
+          git add -A
+          git commit -m "Automated update EPG: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git gh-pages
