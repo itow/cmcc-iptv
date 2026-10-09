@@ -1,0 +1,37 @@
+name: Update EPG
+
+on:
+  schedule:
+    # 每天北京时间早晨 4:00 (UTC 20:00) 自动执行
+    - cron: '0 20 * * *'
+  workflow_dispatch: # 支持在 GitHub 网页手动一键点击运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 自动推送到 gh-pages 分支的权限
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run EPG Aggregator
+        env:
+          # 从 GitHub 仓库配置的 Variables 中读取
+          EPG_SOURCES: ${{ vars.EPG_SOURCES }}
+          TARGET_CHANNELS: ${{ vars.TARGET_CHANNELS }}
+        run: |
+          python scripts/process_epg.py
+
+      - name: Deploy to GitHub Pages (gh-pages)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
