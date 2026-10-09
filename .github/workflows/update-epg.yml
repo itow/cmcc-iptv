@@ -32,7 +32,6 @@ jobs:
           if [ -f "tv.m3u" ]; then
             cp tv.m3u dist/tv.m3u
             echo "Successfully copied tv.m3u to dist/"
-            echo "OK" > dist/index.html
           fi
 
       - name: Deploy to gh-pages branch
