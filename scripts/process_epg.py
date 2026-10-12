@@ -5,7 +5,7 @@ import os
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 # ==================== 配置区 ====================
 DEFAULT_SOURCES = [
@@ -191,9 +191,14 @@ def process():
     # 1. 从根目录 tv.m3u 加载目标频道与别名映射
     m3u_channels, alias_map = load_channels_from_m3u(M3U_PATH)
 
+    # 计算北京时间（UTC+8）当前日期，用于过滤只保留当日及后续节目
+    cst_tz = timezone(timedelta(hours=8))
+    today_str = datetime.now(cst_tz).strftime("%Y%m%d")
+    print(f"[*] 节目预告日期过滤基准 (北京时间当日): {today_str}")
+
     root = ET.Element("tv", {
         "generator-info-name": "GitHub-Actions-EPG-Tool",
-        "date": datetime.now().strftime("%Y%m%d%H%M%S")
+        "date": datetime.now(cst_tz).strftime("%Y%m%d%H%M%S")
     })
 
     # 先初始化写入 tv.m3u 中的规范频道节点，确保每个频道都有标准的 id 与 display-name
@@ -233,7 +238,14 @@ def process():
 
                     # 只要上游频道映射到了本地 m3u 目标频道，就统一将 channel 重写为本地 canonical_id
                     if canonical_cid:
-                        start = elem.get("start")
+                        start = elem.get("start") or ""
+                        stop = elem.get("stop") or ""
+                        # 过滤掉过往节目：如果节目的结束时间（或开始时间）早于今天 00:00:00，则跳过
+                        prog_end = stop[:8] if len(stop) >= 8 else (start[:8] if len(start) >= 8 else "")
+                        if prog_end and prog_end < today_str:
+                            elem.clear()
+                            continue
+
                         title_elem = elem.find("title")
                         title = title_elem.text.strip() if title_elem is not None and title_elem.text else ""
 
