@@ -1,3 +1,4 @@
+import copy
 import gzip
 import io
 import os
@@ -239,9 +240,10 @@ def process():
                         prog_key = (canonical_cid, start, title)
                         if prog_key not in seen_programmes:
                             seen_programmes.add(prog_key)
-                            # 重写 channel 属性为 tv.m3u 的规范 ID，保证播放器 100% 精确匹配
-                            elem.set("channel", canonical_cid)
-                            root.append(elem)
+                            # 必须 deepcopy，否则后续 elem.clear() 会将已加入 root 的节点内容清空造成 <programme />
+                            prog_node = copy.deepcopy(elem)
+                            prog_node.set("channel", canonical_cid)
+                            root.append(prog_node)
                             channel_prog_count[canonical_cid] += 1
                     elem.clear()
 
